@@ -1,0 +1,14 @@
+Package: narwhalCA
+Type: Package
+Title: Cointegration analysis for EEG data
+Version: 0.1.0
+Authors@R: person("Marie", "Levakova", email = "male@math.ku.dk", role = c("aut", "cre"))
+Description: This package implements basic estimation procedures of cointegration analysis to EEG data 
+		and is created as a supplementary material for the article:
+		"CLASSIFICATION OF BRAIN STATES FROM EEG DATA THAT PREDICTS FUTURE PERFORMANCE IN VISUAL TASKS BASED ON
+			CO-INTEGRATION ANALYSIS" 
+License: GPL 3
+Encoding: UTF-8
+LazyData: true
+Imports: signal, Matrix, mvtnorm, glmnet, MASS, glasso, lars, huge
+LinkingTo: Rcpp, RcppArmadillo, RcppEigen

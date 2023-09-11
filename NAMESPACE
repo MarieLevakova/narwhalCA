@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(narwhalCA)
+import(mvtnorm, MASS, Rcpp, ggplot2, ggforce, cowplot, glmnet, Matrix)
